@@ -1,0 +1,39 @@
+.sections-bg {
+    background-color: #D0D0D0;
+    padding: 10px;
+    padding-left: 36px;
+    height: 100vh;
+    position: relative;
+}
+
+.search-input {  
+    padding: 5px;
+    border: none;
+    margin-top: 39px;
+    margin-bottom: 29px;
+    font-size: 17px;
+    margin: 3px;
+    max-width: 89%;
+}
+
+.filters {
+    font-size: 22px;
+    color: #1c1e1e;
+    text-decoration: none;
+    transition: all ease-in-out .1s;
+    
+}
+
+.filters:hover {
+    border-bottom: rgb(124, 74, 54) solid 2px;
+    color: #1c1e1e;
+}
+
+.search-icon {
+    font-size: 23px;
+    right: 39px;
+    position: absolute;
+    top: 38px;
+    color: rgb(105, 104, 104);
+}
+

@@ -1,0 +1,102 @@
+.tasks-bg {
+    background-color: #f9fbfe;
+    padding: 10px;
+    padding-left: 29px;
+    margin-top: 14px;
+}
+
+.create-task-heading {
+    font-family: "Roboto";
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.create-task-heading-subpart {
+    font-family: "Roboto";
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.todo-user-input {
+    background-color: white;
+    width: 75%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #4f5054;
+    border-radius: 10px;
+    margin-top: 11px;
+    padding: 11px;
+    height: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.addButton {
+    color: white;
+    background-color: #5167b7;
+    font-family: "Roboto";
+    font-size: 20px;
+    border-width: 0px;
+    border-radius: 5px;
+    margin-left: 14px;
+    width: 77px;
+    height: 38px;
+    margin-top: 13px;
+    font-weight: 600;
+    transition: all 0.35s;
+}
+
+.addButton:hover {
+    transform: scale(1.07);
+}
+
+.cancelButton {
+    color: rgb(40, 38, 38);
+    background-color: #a9a7a7;
+    font-family: "Roboto";
+    font-size: 20px;
+    border-width: 0px;
+    border-radius: 5px;
+    margin-left: 14px;
+    width: 77px;
+    height: 38px;
+    margin-top: 13px;
+    font-weight: 600;
+    transition: all 0.35s;
+}
+
+.cancelButton:hover {
+    transform: scale(1.07);
+}
+
+.input-section {
+    position: relative;
+}
+
+.priority-user-input {
+    height: 36px;
+    width: 9%;
+    position: absolute;
+    bottom: -3px;
+    right: 26%;
+    background-image: transparent;
+    background-color: transparent;
+    outline: 0px;
+    border: none;
+    border-width: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.category-user-input {
+    height: 36px;
+    width: 10%;
+    position: absolute;
+    bottom: -3px;
+    right: 36%;
+    background-image: transparent;
+    background-color: transparent;
+    border: none;
+    outline: 0px;
+    border-width: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+

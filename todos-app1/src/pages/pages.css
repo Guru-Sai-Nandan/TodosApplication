@@ -1,0 +1,124 @@
+.todos {
+    padding-left: 23px;
+}
+
+.sub-heading {
+    margin: 4px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 500;
+    padding-bottom: 7px;
+}
+
+.pending-todos, .completed-todos {
+    min-height: 30vh;
+    max-height: 30vh;
+    overflow-y: auto;
+
+}
+
+.status-box {
+    appearance: none;
+    -webkit-appearance: none;
+    height: 35px;
+    width: 35px;
+    background-color: #d7d4d4;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 18px;
+    margin-top: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.status-box:after {
+    content: "✔";
+    font-weight: 500;
+    font-size: 26px;
+    color: white;
+    display: none;
+}
+
+.status-box:hover {
+    background-color: #a5a5a5;
+}
+
+.status-box:checked {
+    background-color: #70b65e;
+}
+
+.status-box:checked:after {
+    display: inline;
+}
+
+.task-name {
+    background-color: white;
+    width: 100%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #4f5054;
+    border-radius: 10px;
+    margin-top: 11px;
+    padding: 11px;
+    height: 44px;
+    caret-color: transparent;
+    cursor: pointer;
+    font-size: 21px;
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+
+.priority {
+    position: absolute;
+    bottom: -6px;
+    left: 90%;
+    border-width: 0px;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.category {
+    position: absolute;
+    bottom: -6px;
+    left: 77%;
+    border-width: 0px;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.each-todo {
+    position: relative;
+    width: 56vw;
+}
+
+.delete-icon {
+    font-size: 26px;
+    margin-left: 30px;
+    align-items: center;
+    margin-top: 8px;
+    transition: all 0.37s;
+    
+}
+
+.delete-icon:hover {
+    transform: scale(1.14);
+    animation: shake 0.6s;
+}
+
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
